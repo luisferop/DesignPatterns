@@ -42,11 +42,45 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapter\AdapterEUAtoBrasil.cs" />
+    <Compile Include="Adapter\Plug.cs" />
+    <Compile Include="Adapter\PlugAmericano.cs" />
+    <Compile Include="Adapter\PlugBrasileiro.cs" />
+    <Compile Include="Adapter\Tomada.cs" />
+    <Compile Include="Adapter\TomadaAmericana.cs" />
+    <Compile Include="Adapter\TomadaBrasileira.cs" />
+    <Compile Include="Bridge\Implementador.cs" />
+    <Compile Include="Bridge\Professor.cs" />
+    <Compile Include="Bridge\ProfessorGraduacao.cs" />
+    <Compile Include="Bridge\ProfessorImplGraduacao.cs" />
+    <Compile Include="Bridge\ProfessorImplPosGraduacao.cs" />
+    <Compile Include="Bridge\ProfessorPosGraduacao.cs" />
+    <Compile Include="Composite\Empregado.cs" />
+    <Compile Include="Composite\Gerente.cs" />
+    <Compile Include="Composite\Programador.cs" />
+    <Compile Include="Decorator\Arvore.cs" />
+    <Compile Include="Decorator\ArvoreNatal.cs" />
+    <Compile Include="Decorator\Bola.cs" />
+    <Compile Include="Decorator\Decoracao.cs" />
+    <Compile Include="Decorator\Estrela.cs" />
+    <Compile Include="Decorator\PiscaPisca.cs" />
+    <Compile Include="Facade\Facade.cs" />
+    <Compile Include="Facade\SubsistemaDois.cs" />
+    <Compile Include="Facade\SubsistemaTres.cs" />
+    <Compile Include="Facade\SubsistemaUm.cs" />
+    <Compile Include="Flyweight\Figura.cs" />
+    <Compile Include="Flyweight\FiguraFactory.cs" />
+    <Compile Include="Flyweight\Linha.cs" />
+    <Compile Include="Flyweight\Oval.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proxy\Image.cs" />
+    <Compile Include="Proxy\ProxyImage.cs" />
+    <Compile Include="Proxy\RealImage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
