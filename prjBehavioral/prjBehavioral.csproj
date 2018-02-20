@@ -42,11 +42,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Command\Calculadora.cs" />
+    <Compile Include="Command\Command.cs" />
+    <Compile Include="Command\Invoker.cs" />
+    <Compile Include="Command\Soma.cs" />
+    <Compile Include="Observer\Carro.cs" />
+    <Compile Include="Observer\CarroRoubado.cs" />
+    <Compile Include="Observer\ICarro.cs" />
+    <Compile Include="Observer\CarroPolicia.cs" />
+    <Compile Include="Observer\Unsubscriber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="State\Ave.cs" />
+    <Compile Include="State\Comportamento.cs" />
+    <Compile Include="State\Grasnar.cs" />
+    <Compile Include="State\NaoGrasnar.cs" />
+    <Compile Include="State\NaoVoar.cs" />
+    <Compile Include="State\Pato.cs" />
+    <Compile Include="State\Voar.cs" />
+    <Compile Include="Strategy\AlgoritmoOrdenacao.cs" />
+    <Compile Include="Strategy\BubbleSort.cs" />
+    <Compile Include="Strategy\MergeSort.cs" />
+    <Compile Include="Strategy\QuickSort.cs" />
+    <Compile Include="Strategy\Vetor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
